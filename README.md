@@ -1,18 +1,47 @@
-📊 Projeto – Model Fitness (Análise de Churn)
+🏋️ Model Fitness – Análise de Churn
+📊 Descrição do Projeto
 
-Projeto de Análise de Dados focado na identificação de clientes com risco de cancelamento (churn) em uma rede de academias chamada Model Fitness.
+A rede de academias Model Fitness está desenvolvendo uma estratégia de relacionamento com clientes baseada em análise de dados.
 
-O objetivo do projeto é analisar o comportamento dos clientes, identificar padrões associados ao churn e fornecer insights estratégicos para retenção de clientes.
+Um dos principais problemas enfrentados por academias e outros negócios baseados em assinatura é o churn, ou seja, o cancelamento de clientes.
 
-Este projeto foi desenvolvido utilizando Python para análise de dados, aplicando técnicas de exploração de dados, estatística e visualização.
+Neste projeto, realizamos uma análise dos dados dos clientes para identificar padrões e fatores que influenciam o churn, permitindo que a empresa desenvolva estratégias mais eficientes para retenção de clientes.
 
 🎯 Objetivo do Projeto
 
-A academia Model Fitness deseja:
+Os principais objetivos desta análise são:
 
-Identificar clientes com maior probabilidade de cancelar o plano
-Entender quais fatores influenciam o churn
-Criar estratégias de retenção de clientes
+Analisar os dados dos clientes da Model Fitness
+Identificar padrões associados ao cancelamento de clientes
+Comparar características de clientes que permaneceram e clientes que cancelaram
+Gerar insights que possam ajudar a reduzir o churn
+📂 Dataset
+
+O conjunto de dados contém informações sobre clientes da academia, incluindo dados demográficos, informações de contrato e comportamento de uso da academia.
+
+Localização do dataset no repositório:
+
+data/gym_churn_us.csv
+
+Principais variáveis presentes no dataset:
+
+gender
+Near_Location
+Partner
+Promo_friends
+Phone
+Contract_period
+Group_visits
+Age
+Avg_additional_charges_total
+Month_to_end_contract
+Lifetime
+Avg_class_frequency_total
+Avg_class_frequency_current_month
+Churn
+
+A variável Churn indica se o cliente cancelou ou não a assinatura.
+
 📁 Estrutura do Projeto
 Projeto-Model-Fitness
 │
@@ -23,84 +52,42 @@ Projeto-Model-Fitness
 │   └── notebook.ipynb
 │
 └── README.md
-📂 Dataset
 
-O dataset contém informações sobre clientes da academia, incluindo dados demográficos, comportamento de uso e informações de contrato.
-
-Caminho do arquivo:
-
-data/gym_churn_us.csv
-
-Principais variáveis do dataset:
-
-Variável	Descrição
-gender	Gênero do cliente
-Near_Location	Cliente mora próximo da academia
-Partner	Cliente trabalha em empresa parceira
-Promo_friends	Inscrição via indicação de amigos
-Phone	Cliente forneceu telefone
-Contract_period	Duração do contrato
-Group_visits	Participação em aulas em grupo
-Age	Idade do cliente
-Avg_additional_charges_total	Gastos adicionais
-Month_to_end_contract	Meses restantes de contrato
-Lifetime	Tempo total como cliente
-Avg_class_frequency_total	Frequência média de visitas
-Avg_class_frequency_current_month	Frequência no último mês
-Churn	Cancelamento do plano (0 = não, 1 = sim)
-📓 Notebook de Análise
-
-A análise completa está no notebook:
+Localização do notebook:
 
 notebook/notebook.ipynb
+🧪 Metodologia
 
-Etapas realizadas no notebook:
+A análise foi realizada seguindo as seguintes etapas:
 
 Importação das bibliotecas
-Carregamento do dataset
+Carregamento e inspeção inicial dos dados
+Pré-processamento dos dados
 Análise exploratória de dados (EDA)
-Análise estatística dos clientes
+Análise estatística do comportamento dos clientes
+Visualização dos dados
 Identificação de padrões de churn
-Visualização de dados
 Conclusões e recomendações de negócio
-🛠️ Tecnologias Utilizadas
+📈 Principais Insights
+
+A análise revelou alguns padrões importantes relacionados ao churn:
+
+Clientes com baixa frequência de visitas têm maior probabilidade de cancelar o plano.
+Contratos mais curtos apresentam maior taxa de cancelamento.
+Clientes que participam de aulas em grupo tendem a permanecer por mais tempo.
+Clientes com maior tempo de relacionamento com a academia possuem menor probabilidade de churn.
+
+Esses insights podem ajudar a empresa a desenvolver estratégias mais eficazes de retenção de clientes.
+
+🛠 Tecnologias Utilizadas
 Python
 Pandas
 NumPy
 Matplotlib
 Seaborn
 SciPy
+Scikit-learn
 Jupyter Notebook
-📈 Exemplos de Análises Realizadas
-Distribuição da idade dos clientes
-Frequência média de visitas à academia
-Comparação entre clientes que cancelaram e que permaneceram
-Impacto da duração do contrato no churn
-Relação entre frequência de uso e cancelamento
-💡 Principais Insights
-
-Alguns padrões observados durante a análise:
-
-Clientes com baixa frequência de visitas apresentam maior probabilidade de churn.
-Clientes com contratos mais curtos tendem a cancelar com mais frequência.
-Clientes que participam de aulas em grupo têm maior retenção.
-Clientes com maior tempo de relacionamento com a academia apresentam menor churn.
-
-Esses insights podem ajudar a academia a criar estratégias de retenção mais eficientes.
-
-🚀 Como Executar o Projeto
-
-1️⃣ Clone o repositório
-
-git clone https://github.com/guilhermen29/Projeto-Model-Fitness.git
-
-2️⃣ Instale as bibliotecas necessárias
-
-pip install pandas numpy matplotlib seaborn scipy
-
-3️⃣ Abra o notebook
-
-notebook/notebook.ipynb
 👨‍💻 Autor
 
 Guilherme Marques
