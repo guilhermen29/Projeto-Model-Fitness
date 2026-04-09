@@ -95,6 +95,7 @@ Seaborn
 SciPy
 Scikit-learn
 Jupyter Notebook
+
 👨‍💻 Author
 
 Guilherme Marques
