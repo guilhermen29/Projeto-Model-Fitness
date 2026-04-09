@@ -1,33 +1,31 @@
-# 🏋️ Model Fitness – Análise de Churn
+# 🏋️ Model Fitness - Churn Review
 
+# 📊 Project Description
 
+The Model Fitness network is developing a customer relationship strategy based on data analysis.
 
-# 📊 Descrição do Projeto
+One of the main problems faced by academies and other subscription-based businesses is churn, that is, customer cancellations.
 
-A rede de academias Model Fitness está desenvolvendo uma estratégia de relacionamento com clientes baseada em análise de dados.
+In this project, we conducted an analysis of customer data to identify patterns and factors that influence churn, allowing the company to develop more efficient strategies for customer retention.
 
-Um dos principais problemas enfrentados por academias e outros negócios baseados em assinatura é o churn, ou seja, o cancelamento de clientes.
+# 🎯 Project Objective
 
-Neste projeto, realizamos uma análise dos dados dos clientes para identificar padrões e fatores que influenciam o churn, permitindo que a empresa desenvolva estratégias mais eficientes para retenção de clientes.
+The main objectives of this analysis are:
 
-# 🎯 Objetivo do Projeto
-
-Os principais objetivos desta análise são:
-
-Analisar os dados dos clientes da Model Fitness
-Identificar padrões associados ao cancelamento de clientes
-Comparar características de clientes que permaneceram e clientes que cancelaram
-Gerar insights que possam ajudar a reduzir o churn
+Analyze Model Fitness customer data
+Identify patterns associated with customer cancellations
+Compare characteristics of customers who stayed and customers who canceled
+Generate insights that can help reduce churn
 
 # 📂 Dataset
 
-O conjunto de dados contém informações sobre clientes da academia, incluindo dados demográficos, informações de contrato e comportamento de uso da academia.
+The dataset contains information about the academy’s customers, including demographic data, contract information, and the academy’s usage behavior.
 
-Localização do dataset no repositório:
+Location of the dataset in the repository:
 
 data/gym_churn_us.csv
 
-Principais variáveis presentes no dataset:
+Main variables present in the dataset:
 
 gender
 Near_Location
@@ -44,12 +42,12 @@ Avg_class_frequency_total
 Avg_class_frequency_current_month
 Churn
 
-A variável Churn indica se o cliente cancelou ou não a assinatura.
+The Churn variable indicates whether or not the customer canceled the subscription.
 
-# 📁 Estrutura do Projeto
+# 📁 Project Structure
 
 ```
-Projeto-Model-Fitness
+Project-Model-Fitness
 │
 ├── data
 │ └── gym_churn_us.csv
@@ -60,35 +58,35 @@ Projeto-Model-Fitness
 └── README.md
 ```
 
-Localização do notebook:
+Laptop location:
 
 notebook/notebook.ipynb
 
-# 🧪 Metodologia
+# 🧪 Methodology
 
-A análise foi realizada seguindo as seguintes etapas:
+The analysis was carried out following the following steps:
 
-Importação das bibliotecas
-Carregamento e inspeção inicial dos dados
-Pré-processamento dos dados
-Análise exploratória de dados (EDA)
-Análise estatística do comportamento dos clientes
-Visualização dos dados
-Identificação de padrões de churn
-Conclusões e recomendações de negócio
+Importing libraries
+Data upload and initial inspection
+Pre-processing of data
+Exploratory data analysis (EDA)
+Statistical analysis of customer behavior
+Data visualization
+Identification of churn patterns
+Business conclusions and recommendations
 
-# 📈 Principais Insights
+# 📈 Key Insights
 
-A análise revelou alguns padrões importantes relacionados ao churn:
+The analysis revealed some important patterns related to churn:
 
-Clientes com baixa frequência de visitas têm maior probabilidade de cancelar o plano.
-Contratos mais curtos apresentam maior taxa de cancelamento.
-Clientes que participam de aulas em grupo tendem a permanecer por mais tempo.
-Clientes com maior tempo de relacionamento com a academia possuem menor probabilidade de churn.
+Customers with low visit frequency are more likely to cancel their plan.
+Shorter contracts have a higher cancellation rate.
+Clients who participate in group classes tend to stay longer.
+Customers with a longer relationship time with the gym have a lower probability of churn.
 
-Esses insights podem ajudar a empresa a desenvolver estratégias mais eficazes de retenção de clientes.
+These insights can help the company develop more effective customer retention strategies.
 
-# 🛠 Tecnologias Utilizadas
+# 🛠 Technologies Used
 Python
 Pandas
 NumPy
@@ -97,11 +95,11 @@ Seaborn
 SciPy
 Scikit-learn
 Jupyter Notebook
-👨‍💻 Autor
+👨‍💻 Author
 
 Guilherme Marques
 
-Projeto desenvolvido durante o programa de Análise de Dados da TripleTen.
+Project developed during TripleTen’s Data Analysis program.
 
 GitHub:
 https://github.com/guilhermen29
